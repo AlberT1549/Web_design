@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字体</title>
+    <style>
+        body/*body不包含标题，标题需要单独指定*/ {
+            font-family:cursive;
+            font-size: 16px;/*Google默认16px*/
+            /*  */
+        }
+        h4 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .strenth{
+            font-weight: bold;
+            /* bold=700 normal=400 */
+        }
+        .italic{
+            font-style: italic;
+            /* Italic 样式一般是指书写体，相比无样式的字体，
+            通常会占用较少的高度，
+            而 oblique 字形一般只是常规字形的倾斜版本。 */
+        }
+        .combination{
+            /* 次序不可混乱：font-style font-weight font-size/line-height font-family */
+            /* 至少必须有size and family */
+            font: italic 700 16px 'Microsoft yahei';
+        }
+    </style>
+
+</head>
+<body>
+    <h4>段落标签和换行标签</h4>
+    <p><div class="italic">《娱乐至死》</div>和<em>《乌合之众》</em>
+    作为两本知识青年高逼格的书单代表，最近几年经过了大吹和被认为是假装有文化的清高的代表，虽然买了许久，还是觉得有必要认真阅读完，先从《娱乐至死》开始吧，序言给我一种很符合当代社会氛围的贴切感。
+    </p>
+    <p>但是我们忘了，除了<div class="strenth">奥威尔可怕的预言</div>外，还有一个同样让人毛骨悚然的版本，虽然这个版本年代稍微久远一点儿，而且也不那么广为人知。<div class="combination">这就是奥尔德斯·赫胥黎的《美丽新世界》</div>
+    </p>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE表格</title>
+</head>
+<body>
+    <table align="center" width="500" height="300"border="1" cellspacing="0"> 
+        <!-- table head比th范围更广 ,将表格的头部单独划分出来-->
+        <thead>
+            
+            <tr>
+                 <th>排名</th><th>关键词</th><th>趋势</th><th>进入链接</th>
+            </tr>
+        </thead>
+        <!-- tbody主体部分，存放数据本体，vscode的代码折叠图标折叠 -->
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Orz</td>
+                <td><img src="#" alt="error"></td>
+                <td><a href="#">贴吧</a><a href="#">图片</a><a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2333</td>
+                <td><img src="#" alt="error"></td>
+                <td><a href="#">贴吧</a><a href="#">图片</a><a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Orz</td>
+                <td><img src="#" alt="error"></td>
+                <td><a href="#">贴吧</a><a href="#">图片</a><a href="#">百科</a></td>
+            </tr>
+            <tr>
+                <td>右侧合并单元格</td>
+                <td colspan="3">合并在左侧的单元格内</td>
+                <!-- 注意删除掉多余的单元格 -->
+                <!-- rowspan跨列合并，colspan跨行合并 -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

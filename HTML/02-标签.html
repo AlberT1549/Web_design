@@ -1,0 +1,95 @@
+<!DOCTYPE html>// 文档类型档声明标签，必须首句
+<html lang="zh-CN"> //声明语言种类
+<head>
+    <meta charset="UTF-8">//字符集charactor set种类
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    使用！快速建立框架
+    <h1>一级标题</h1>
+    <h2>二级标题</h2>“这里会显示在下一层”
+    <h3>一共提供了6级标题等级</h3>
+
+
+    <h4>段落标签和换行标签</h4>
+    paragraph分段标签
+    <p>《娱乐至死》和《乌合之众》作为两本知识青年高逼格的书单代表，最近几年经过了大吹和被认为是假装有文化的清高的代表，虽然买了许久，还是觉得有必要认真阅读完，先从《娱乐至死》开始吧，序言给我一种很符合当代社会氛围的贴切感。</p>
+    <p>但是我们忘了，除了奥威尔可怕的预言外，还有一个同样让人毛骨悚然的版本，虽然这个版本年代稍微久远一点儿，而且也不那么广为人知。这就是奥尔德斯·赫胥黎的《美丽新世界》。
+    </p>
+    文本本身会根据浏览器的窗口自动换行。
+    强制换行标签<br />会让后面的文字强制换行
+    段落之间会存在间距，但是换行不会
+
+    <h2>文本的格式化标签</h2>
+    <p>
+        使用粗体，斜体和下划线的标签
+    </p>
+    <p>
+        这是一句<strong>加粗</strong>的标签语句
+    </p>
+    <p>
+        这是一句<b>加粗</b>的标签语句，优先推荐strong 
+    </p>
+    <p>
+        这是一句<em>倾斜</em>的标签语句,优先推荐
+    </p>
+    <p>
+        这是一句<i>倾斜</i>的标签语句
+    </p>
+    <p>
+        这是一句<del>删除线</del>的标签语句
+    </p>
+    <p>
+
+        这是一句<s>删除线</s>的标签语句
+    </p>
+    <p>
+        这是一句<ins>下划线</ins>的标签语句
+    </p>
+    <p>
+        这是一句<u>下划线</u>的标签语句
+    </p>
+    <h2>
+        div （division）和 span（span） 标签
+    </h2>
+    <div>div会独占一行</div>
+    <span>span一样可以放多个</span>
+
+
+    <h2>图像标签和路径</h2>
+    <img src="sources/img.jpg">使用网络图片地址也可
+
+    <h2>图像标签和路径</h2> alt替换文本，图片显示不出来时的文字替换<br />
+    <img alt = "图片不存在"src="sources/img2.jpg">
+
+    <h2>图像标签和路径</h2> title提示文本<br>，鼠标在图片上时显示文字
+    <img alt = "图片不存在"src="sources/img2.jpg" title="父亲节特辑">
+
+    <h2>图像的大小设定</h2> 单位是像素
+    <img alt = "图片不存在"src="sources/img2.jpg" 
+    title="父亲节特辑"
+    width="50" border = "15">
+    height和width是同比例缩放，因此一般设置一个即可
+    border一般在css修改
+
+    <h4>根目录和目录文件夹</h4>
+    <h4>超链接标签</h4>
+    <h5>1.外部网站链接</h5>
+    <a href="https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1991091881" target="_blank">
+        我的微信文章,默认的target为_self,本窗口打开，_balnk为新窗口打开 
+    </a>
+    <h5>2.网站内部链接</h5>
+    <a href="first-HTML.html" target="_blank">
+        点我打开first.html,使用#代表空链接
+    </a>
+    <a href="#">空链接
+
+    </a>
+    <h5>4.下载链接</h5>
+    <a href="sources/img.zip">download zip or exe
+    </a>
+    <h5>网页元素的链接</h5>
+    <a href="https://mp.weixin.qq.com/cgi-bin/home?t=home/index&lang=zh_CN&token=1991091881"><img src="img.jpg" alt="备用文字"></a>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>M78星云申请测试</h2>
+    <table width="500">
+        <tbody>
+            <!-- first question 单选radio-->
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="sex" id="male"><label for="male">男<img src="" alt="error"></label>
+                    <input type="radio" name="sex" id="female"><label for="female">女<img src="" alt="error"></label>
+                </td>
+            </tr>
+            <!-- second question month选项-->
+            <tr>
+                <td>诞辰：</td>
+                <td>
+                    <input type="month" name="birth" id="birth">
+                </td>
+            </tr>
+            <!-- third question 下拉选项select -->
+            <tr>
+                
+                <td>物种</td>
+                <td>
+                    <select name="species" id="species">
+                        <option value="human">人类</option>
+                        <option value="dinosaur">恐龙</option>
+                        <option value="god" selected="selected">卡密</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- fourth question 文本输入-->
+            <tr>
+                <td>居住地</td>
+                <td><input type="text" name="homeland" id=""></td>
+            </tr>
+            <!-- fifth question 多选 -->
+            <tr>
+                <td>超能力</td>
+                <td><label for="SuperPower1">&nbsp;&nbsp;&nbsp;隐身stealth</label><input type="checkbox" name="SuperPower" id="SuperPower1">
+                    <label for="SuperPower2">&nbsp;&nbsp;&nbsp;飞行flight</label><input type="checkbox" name="SuperPower" id="SuperPower2">
+                    <label for="SuperPower3">&nbsp;&nbsp;&nbsp;念力psychokinesis</label><input type="checkbox" name="SuperPower" id="SuperPower3">
+                </td>
+            </tr>
+            <tr></tr>
+            <!-- sixth question texarea -->
+            <tr>
+                <td></td>
+                <td>自我介绍<br><textarea name="self introdution" id="self introdution" cols="50" rows="5"></textarea></td>
+            </tr>
+            <!-- seventh question 按钮 -->
+            <tr>
+                <td></td>
+                <td><input type="button" value="加入宇宙警备队"></td>
+            </tr>
+
+
+
+
+            <!-- eighth question 多选checkbox -->
+            <tr>
+                <td></td>
+                <td><input type="checkbox" name="rules" id="uels reading" checked="checked">我已认真阅读宇宙警备队守则</td>
+            </tr>
+
+            <!-- ninth question 超链接 -->
+            <tr>
+                <td></td>
+                <td>
+                    <a href="#" target="_blank">已经加入宇宙警备预备队通道</a>
+                </td>
+            </tr>
+            <!-- tenth question 列表 -->
+            <tr>
+                <td></td>
+                <td>
+                    <ul>
+                        <li>第一，绝对不意气用事</li>
+                        <li>第二，绝对不漏判任何一件坏事</li>
+                        <li>第三，绝对裁判的公正漂亮</li>
+                        <li>裁判机器人蜻蜓队长前来觐见！</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
